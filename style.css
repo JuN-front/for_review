@@ -40,13 +40,13 @@ a {
 /* CSSの共通化を失念してました。ひとまずFigmaに指示のあるbuttonだけしてみました　*/
 .section-button {
   display: flex;
-  width: 800px;
+  align-self: stretch;
   height: 60px;
   padding: 0px 40px;
   gap: 10px;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  cursor: pointer;
   background: var(--color-accent-red);
   box-shadow: 4px 4px 0px 0px var(--color-accent-yellow);
   transition: 0.3s;
@@ -482,7 +482,7 @@ a {
   border: 1px solid var(--color-form-border-red);
   background: var(--color-form-background-yellow);
   font-size: 16px;
-  color: bar(--color-black);
+  color: var(--color-black);
 }
 
 .signup-textarea {
