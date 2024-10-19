@@ -76,7 +76,7 @@ img {
   margin-top: 80px;
 }
 
-.hero::before {
+.hero::after {
   position: absolute;
   top: 0;
   left: 0;
